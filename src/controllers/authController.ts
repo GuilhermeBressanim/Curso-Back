@@ -47,7 +47,7 @@ export const authController = {
                 const payload = {
                     id: user.id,
                     firstName: user.firstName,
-                    lastName: user.lastName
+                    email: user.email
                 }
                 const token = jwtService.signToken(payload, '7d')
 

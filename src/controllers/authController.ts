@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { jwtService } from "../services/jwtService";
-import { userService } from "../services/userSerice";
+import { userService } from "../services/userService";
 
 export const authController = {
     register: async (req: Request, res: Response) => {
